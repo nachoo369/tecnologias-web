@@ -1,1 +1,1 @@
-alert("Hola Mundo! - JS Externo");
+document.write("Hola Mundo! - JS Externo");
