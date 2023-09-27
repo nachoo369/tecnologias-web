@@ -1,5 +1,4 @@
 var nota1 = prompt(`Ìngrese la nota 1: `, 0);
-
 //restricciones al ingresar nota 1
 do{
  
@@ -31,10 +30,6 @@ do{
 var notafinal = ((nota1*0.4)+(nota2*0.3)+(nota3*0.3));
 
 //alert(notafinal);
-
-//restricciones al ingresar nota
-
-
 //Mensaje de aprobacion segun nota final
 if (notafinal <= 3.95){
     alert("Reprobaste la asignatura")
