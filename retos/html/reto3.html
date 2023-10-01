@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Propinas</title>
+</head>
+<body>
+    <h1>Calculadora de Propinas</h1>
+    <script src="../js/reto3.js"></script>
+    <strong>Ingrese monto total:</strong>
+    <input type="text" placeholder="Ingrese Monto" id="monto" />
+    <strong>Porcentaje de propina</strong>
+    <select name="Propinas" id="porcentaje">
+        <option value="10">10%</option>
+        <option value="15">15%</option>
+        <option value="20">20%</option>
+        </select>
+    <button onclick="montototal()">Calcular</button>
+    <div id="mostrar"></div>
+
+</body>
+</html>
