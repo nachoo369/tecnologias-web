@@ -2,4 +2,6 @@
 function agregar(ingresado){
     document.getElementById("ingresado").value =+ingresado;
 };
-//falta
+function borrar(){
+    document.getElementById("ingresado").value = ""
+};
