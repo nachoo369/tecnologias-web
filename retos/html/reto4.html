@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="../js/reto4.js"></script>
+    <h1>Calculadora de IMC</h1>
+    <div>Nombre:<input type="text" id="nombre"/></div>
+    <div>Peso(KG):<input type="number" step="1" value="0" id="peso"/></div>
+    <div>Altura(cm):<input type="number" step="10" value="0" id="altura"/></div>
+    <div>Edad:<input type="number" step="1" value="0" id="edad"/></div>
+    <div>Genero:
+    <select name="Generero" id="genero">
+        <option value="M">Masculino</option>
+        <option value="F">Femenino</option>
+        </select>
+    </div>
+    <div>Actividad Fisica:
+        <select name="Actividad" id="act">
+            <option value="Sedentario">Sedentario</option>
+            <option value="Moderado">Moderado</option>
+            <option value="Activo">Activo</option>
+            </select>
+        </div>
+
+    <button id="Calcular" onclick="calcular()">Calcular</button>
+    <div id="mostrar"></div>
+</body>
+</html>
