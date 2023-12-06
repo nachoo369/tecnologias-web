@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #e8e8e8;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+.file-upload {
+    display: flex;
+    align-items: center;
+}
+
+.file-upload label {
+    margin-right: 10px;
+}
+
+#upload-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    width: 95%;
+}
+
+.form-group {
+    flex-basis: 45%; /* Establece el ancho de cada campo de nombre y apellido */
+}
+
+label, input, select {
+    display: block;
+    margin: 10px 0;
+}
+
+input, select {/* tanaño de los input */
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    margin: 2px auto;
+    padding: 2px;
+    width: 60%;
+}
+
+.checkbox-row label {
+    margin-right: 1px;
+    display: flex;
+    align-items: start;
+}
+
+.gender-div {
+    margin-top: 20px;
+}
+
+.pdf-input {
+    display: none;
+}
+
+button {
+    background-color: #bef605;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
